@@ -22,7 +22,7 @@ spec:
           - name: RABBITMQ_DEFAULT_PASS
             valueFrom:
               secretKeyRef:
-                name: vprofile-passwords
+                 name: vprofile-passwords
                  key: rmqpass
           - name: RABBITMQ_DEFAULT_USER
             value: "guest"
